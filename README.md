@@ -43,30 +43,4 @@ L'application est construite en utilisant SwiftUI avec une architecture MVVM (Mo
    git clone https://github.com/votre-utilisateur/jeunesParents.git
    cd jeunesParents
 
-   API
-
-L’application communique avec un backend pour récupérer des informations sur l’utilisateur et les articles de recommandation.
-	•	Endpoint : http://127.0.0.1:8080/parents/profile
-	•	Méthode : GET
-	•	Authentification : Requiert un token d’authentification Bearer dans les en-têtes HTTP.
-
-Gestion des erreurs
-
-Les erreurs réseau et d’authentification sont capturées dans l’application et affichées pour aider l’utilisateur à comprendre si une action a échoué.
-
-Technologies
-
-	•	SwiftUI : Pour la construction de l’interface utilisateur.
-	•	Combine : Pour la gestion des données et la liaison des vues avec les ViewModels.
-	•	MVVM : Pour séparer la logique d’interface et de données.
-	•	Keychain : Pour le stockage sécurisé des tokens d’authentification.
-
-Améliorations futures
-
-	•	Notifications : Ajout de rappels pour les tâches importantes.
-	•	Suivi de l’humeur avancé : Analyse des tendances de l’humeur sur une période donnée.
-	•	Recommandations personnalisées : Suggestions d’articles en fonction des préférences des utilisateurs.
-
 Auteur
-
-Développé par [Votre Nom ou Pseudo].
